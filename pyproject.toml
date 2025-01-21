@@ -6,6 +6,13 @@ readme = "README.md"
 requires-python = ">=3.8"
 dependencies = []
 
+[project.urls]
+Repository = "https://github.com/mdlattimore/simple_name_parser"
+
+authors = [
+  {name = "Mark D. Lattimore", email = "mark.d.lattimore@gmail.com"},
+]
+
 [build-system]
 requires = ["setuptools>=61.0.0", "wheel"]
 build-backend = "setuptools.build_meta"
